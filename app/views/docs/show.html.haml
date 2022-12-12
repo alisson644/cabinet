@@ -5,7 +5,3 @@
 = link_to "Fix Doc", edit_doc_path(@doc)
 = link_to "Trash It", doc_path(@doc), method: :delete, data: { confirm: "Are you sure?" }
 
-:javascript
-  $(document).ready(function() {
-      console.log( "ready!" );
-  });
